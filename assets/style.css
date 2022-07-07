@@ -1,0 +1,23 @@
+a{
+  color: aquamarine;
+}
+
+header, section, footer{
+  border: 1px dotted black;
+}
+
+header{
+  background-color: brown;
+}
+
+section{
+  background-color: bisque;
+}
+
+footer{
+  background-color: aquamarine;
+}
+
+a{
+  text-decoration: none;
+}
