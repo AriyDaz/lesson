@@ -2,7 +2,12 @@ a{
   color: aquamarine;
 }
 
-header, section, footer{
+table{
+  border: 1px solid black;
+  text-align: center;
+}
+
+tr, th, td {
   border: 1px dotted black;
 }
 
@@ -20,4 +25,9 @@ footer{
 
 a{
   text-decoration: none;
+}
+
+form{
+  background: burlywood;
+  padding: 1%;
 }
