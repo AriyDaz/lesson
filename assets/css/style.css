@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*Обнуление*/
 * {
   padding: 0;
@@ -75,90 +74,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*------------------------<FLEX-BOX>----------------------------*/
-
-nav{
+nav {
   display: flex;
   justify-content: center;
 }
 
-$fs:30px;
-
-%fexRow{
+.row-2, .row-1 {
   flex-direction: row;
   margin-top: 1%;
   height: 20%;
   justify-content: center;
 }
 
-
-%MarginLeftWidth{
+.row-items {
   margin-left: 10px;
   width: 5%;
 }
 
-%ContainerColor{
-  border:3px solid rgb(69, 231, 243);
+.container-color,
+.row-1,
+.row-2 {
+  border: 3px solid rgb(69, 231, 243);
 }
 
-%RowColor{
-  border:3px solid rgb(98, 243, 69);
-}
-
-%ColColor{
-  border:3px solid rgb(243, 69, 234);
-}
-
-%Height{
-  .item1, .item3, .item5{
-    height: 50px;
-  }
-  .item2, .item4{
-    height: 100px;
-  }
-}
-
-%width{
-  .item1, .item3, .item5{
-    width: 50px;
-  }
-  .item2, .item4{
-    width: 100px;
-  }
-}
-
-
-h1{
-  text-align: center;
-  font-size: $fs;
-  margin: $fs 0 ;
-}
-
-span{
-  font-size: $fs;
-}
-
-.wrapper-gide{
-  display: flex;
-  height: 30px;
-}
-
-.guide{
-  padding: 5px 5px;
-}
-
-.container-color, 
-.row-1, 
-.row-2
-{
-  @extend %ContainerColor;
-}
-
-.row-color, 
-.row-1, 
+.row-color,
+.row-1,
 .row-2,
-.row-3
-{
-  @extend %RowColor;
+.row-3 {
+  border: 3px solid rgb(98, 243, 69);
 }
 
 .column-color,
@@ -166,62 +109,72 @@ span{
 .item2,
 .item3,
 .item4,
-.item5{
-  @extend %ColColor;
+.item5 {
+  border: 3px solid rgb(243, 69, 234);
+}
+
+.row-3 .item1, .row-2 .item1, .row-3 .item3, .row-2 .item3, .row-3 .item5, .row-2 .item5 {
+  height: 50px;
+}
+.row-3 .item2, .row-2 .item2, .row-3 .item4, .row-2 .item4 {
+  height: 100px;
+}
+
+.row-3 .item1, .row-2 .item1, .row-3 .item3, .row-2 .item3, .row-3 .item5, .row-2 .item5 {
+  width: 50px;
+}
+.row-3 .item2, .row-2 .item2, .row-3 .item4, .row-2 .item4 {
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+span {
+  font-size: 30px;
+}
+
+.wrapper-gide {
+  display: flex;
+  height: 30px;
+}
+
+.guide {
+  padding: 5px 5px;
 }
 
 /*----------------------------<Row left, :hover right>-------------------*/
-
-
-.item1{
+.item1 {
   background-color: rgb(202, 158, 100);
 }
-.item2{
+
+.item2 {
   background-color: rgb(97, 164, 167);
 }
 
-.item3{
+.item3 {
   background-color: rgb(61, 68, 167);
 }
-.item4{
+
+.item4 {
   background-color: rgb(219, 209, 70);
 }
-.item5{
+
+.item5 {
   background-color: rgb(197, 56, 56);
 }
 
-.row-items{
-  @extend %MarginLeftWidth;
-}
-
-
-.row{
+.row {
   display: flex;
 }
 
-.row-1{
-
-  @extend %fexRow;
-
-  &:hover{
-    justify-content: space-between;
-  }
+.row-1:hover {
+  justify-content: space-between;
 }
 
-
-
-.row-2{
-
-  &:hover{
-    align-items: flex-end;
-  }
-  @extend %fexRow;
-  @extend %Height;
-  @extend %width;
-}
-
-
-.row-3{
-  @extend %Height;
-  @extend %width;
-}
+.row-2:hover {
+  align-items: flex-end;
+}/*# sourceMappingURL=style.css.map */
