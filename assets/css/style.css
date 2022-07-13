@@ -73,15 +73,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
-/*------------------------<FLEX-BOX>----------------------------*/
+/*------------------------<>--FLEX-BOX--<>----------------------------*/
+/*--------------------Общие стили-------------------------*/
 nav {
   display: flex;
   justify-content: center;
 }
 
-.row-2, .row-1 {
+.row-3, .row-2, .row-1 {
   flex-direction: row;
-  margin-top: 1%;
   height: 20%;
   justify-content: center;
 }
@@ -146,7 +146,6 @@ span {
   padding: 5px 5px;
 }
 
-/*----------------------------<Row left, :hover right>-------------------*/
 .item1 {
   background-color: rgb(202, 158, 100);
 }
@@ -167,14 +166,32 @@ span {
   background-color: rgb(197, 56, 56);
 }
 
+/*--------------------Варианты позиционирования-------------------------*/
 .row {
+  text-align: center;
   display: flex;
 }
 
+h1::before {
+  content: "?;||---";
+  color: red;
+}
+h1::after {
+  content: "---||;?";
+  color: red;
+}
+
+/*--------------------ВЫРАВНИВАНИЕ ПО ЦЕНТРУ, ----------------------*/
 .row-1:hover {
   justify-content: space-between;
 }
 
 .row-2:hover {
   align-items: flex-end;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.row-3:hover {
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
