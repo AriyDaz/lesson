@@ -1,197 +1,53 @@
+
+
 @charset "UTF-8";
-/*Обнуление*/
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
+/*------------------------NULL-STILE IMPORT----------------------------*/
 
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+@import 'null.css';
 
-:focus, :active {
-  outline: none;
-}
-
-a:focus, a:active {
-  outline: none;
-}
-
-nav, footer, header, aside {
-  display: block;
-}
-
-html, body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-input, button, textarea {
-  font-family: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-ul li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-/*------------------------<>--FLEX-BOX--<>----------------------------*/
 /*--------------------Общие стили-------------------------*/
-nav {
+
+.dflex{
   display: flex;
   justify-content: center;
 }
 
-.row-3, .row-2, .row-1 {
-  flex-direction: row;
-  height: 20%;
-  justify-content: center;
+
+/*--------------------NAV-BAR----------------------*/
+
+
+.navbar-col{
+  flex-grow: 1;
 }
 
-.row-items {
-  margin-left: 10px;
-  width: 5%;
+.menu{
+  flex-grow: 6;
 }
 
-.container-color,
-.row-1,
-.row-2 {
-  border: 3px solid rgb(69, 231, 243);
+ul li a, .contacts a{
+  text-transform: uppercase;
+  line-height: 5;
+  color: black;
 }
 
-.row-color,
-.row-1,
-.row-2,
-.row-3 {
-  border: 3px solid rgb(98, 243, 69);
+ul li, .contacts :not(:first-child){
+  margin-left: 5%;
 }
 
-.column-color,
-.item1,
-.item2,
-.item3,
-.item4,
-.item5 {
-  border: 3px solid rgb(243, 69, 234);
+li a, .contacts a:hover{
+  color: blueviolet;
+  border-bottom: 1px solid blueviolet;
 }
 
-.row-3 .item1, .row-2 .item1, .row-3 .item3, .row-2 .item3, .row-3 .item5, .row-2 .item5 {
-  height: 50px;
-}
-.row-3 .item2, .row-2 .item2, .row-3 .item4, .row-2 .item4 {
-  height: 100px;
-}
+/*------------------------NAVBAR LOGO----------------------------*/
 
-.row-3 .item1, .row-2 .item1, .row-3 .item3, .row-2 .item3, .row-3 .item5, .row-2 .item5 {
+.logo img{
   width: 50px;
-}
-.row-3 .item2, .row-2 .item2, .row-3 .item4, .row-2 .item4 {
-  width: 100px;
-}
-
-h1 {
-  text-align: center;
-  font-size: 30px;
-  margin: 30px 0;
+  height: 50px;
+  align-self: center;
 }
 
-span {
-  font-size: 30px;
-}
 
-.wrapper-gide {
-  display: flex;
-  height: 30px;
-}
-
-.guide {
-  padding: 5px 5px;
-}
-
-.item1 {
-  background-color: rgb(202, 158, 100);
-}
-
-.item2 {
-  background-color: rgb(97, 164, 167);
-}
-
-.item3 {
-  background-color: rgb(61, 68, 167);
-}
-
-.item4 {
-  background-color: rgb(219, 209, 70);
-}
-
-.item5 {
-  background-color: rgb(197, 56, 56);
-}
-
-/*--------------------Варианты позиционирования-------------------------*/
-.row {
-  text-align: center;
-  display: flex;
-}
-
-h1::before {
-  content: "?;||---";
-  color: red;
-}
-h1::after {
-  content: "---||;?";
-  color: red;
-}
-
-/*--------------------ВЫРАВНИВАНИЕ ПО ЦЕНТРУ, ----------------------*/
-.row-1:hover {
-  justify-content: space-between;
-}
-
-.row-2:hover {
-  align-items: flex-end;
-}
-
-.row-3:hover {
-  height: auto;
-  flex-direction: column;
-  align-items: center;
+.wrapper-1 img{
+  width: 100%;
 }
