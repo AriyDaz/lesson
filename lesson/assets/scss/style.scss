@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*------------------------<FLEX-BOX>----------------------------*/
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+$fs:30px;
+
+%fexRow{
+  flex-direction: row;
+  margin-top: 1%;
+  height: 20%;
+  justify-content: center;
+}
+
+
+%MarginLeftWidth{
+  margin-left: 10px;
+  width: 5%;
+}
+
+%ContainerColor{
+  border:3px solid rgb(69, 231, 243);
+}
+
+%RowColor{
+  border:3px solid rgb(98, 243, 69);
+}
+
+%ColColor{
+  border:3px solid rgb(243, 69, 234);
+}
+
+%Height{
+  .item1, .item3, .item5{
+    height: 50px;
+  }
+  .item2, .item4{
+    height: 100px;
+  }
+}
+
+%width{
+  .item1, .item3, .item5{
+    width: 50px;
+  }
+  .item2, .item4{
+    width: 100px;
+  }
+}
+
+
+h1{
+  text-align: center;
+  font-size: $fs;
+  margin: $fs 0 ;
+}
+
+span{
+  font-size: $fs;
+}
+
+.wrapper-gide{
+  display: flex;
+  height: 30px;
+}
+
+.guide{
+  padding: 5px 5px;
+}
+
+.container-color, 
+.row-1, 
+.row-2
+{
+  @extend %ContainerColor;
+}
+
+.row-color, 
+.row-1, 
+.row-2,
+.row-3
+{
+  @extend %RowColor;
+}
+
+.column-color,
+.item1,
+.item2,
+.item3,
+.item4,
+.item5{
+  @extend %ColColor;
+}
+
+/*----------------------------<Row left, :hover right>-------------------*/
+
+
+.item1{
+  background-color: rgb(202, 158, 100);
+}
+.item2{
+  background-color: rgb(97, 164, 167);
+}
+
+.item3{
+  background-color: rgb(61, 68, 167);
+}
+.item4{
+  background-color: rgb(219, 209, 70);
+}
+.item5{
+  background-color: rgb(197, 56, 56);
+}
+
+.row-items{
+  @extend %MarginLeftWidth;
+}
+
+
+.row{
+  display: flex;
+}
+
+.row-1{
+
+  @extend %fexRow;
+
+  &:hover{
+    justify-content: space-between;
+  }
+}
+
+
+
+.row-2{
+
+  &:hover{
+    align-items: flex-end;
+  }
+  @extend %fexRow;
+  @extend %Height;
+  @extend %width;
+}
+
+
+.row-3{
+  @extend %Height;
+  @extend %width;
+}
