@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/*------------------------Обнуление-------------------------*/
+@import "css/null.css";
+/*------------------------<bootstrap import>----------------------------*/
+@import "css/bootstrap.css";
+@import "css/bootstrap-grid.css";
+
+/*------------------------<FLEX-BOX>----------------------------*/
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper3 .cards, .wrapper:not(:first-child){
+  margin: 5% 0;
+}
+
+/*------------------------<NAVBAR>----------------------------*/
+
+.navbar-item{
+  line-height: 5;
+  text-transform: uppercase;
+}
+
+.navbar .logo{ 
+  width: 80px;
+}
+
+.navbar a{
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+}
+
+
+
+/*------------------------<main>----------------------------*/
+
+
+.banner{
+  width: 100%;
+}
+
+.conta{
+  position: relative;
+}
+
+.wrapper1 .hero-text {
+  position: absolute;
+  margin: 5% 0 0 10%;
+}
+
+.wrapper1 .hero-title, .hero-title{
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+.hero-description{
+  font-size: larger;
+  line-height: 1.5;
+  color: aliceblue;
+}
+
+.wrapper2 .hero-description, .hero-title{
+  color: rgb(20, 20, 20);
+}
+
+.wrapper2 .hero-title{
+  text-transform: uppercase;
+}
+
+.wrapper2 .col2{
+  padding: 5% 0;
+  border-left: 2px solid rgb(20, 20, 20);
+  padding-left: 3%;
+}
+
+.wrapper3 .hero-title, .wrapper3 .cards{
+  text-align: center;
+}
+
+.card{
+  padding: 25px;
+}
+
+.footer{
+  background-color: rgb(73, 73, 73);
+  padding: 3%;
+  margin: 0;
+}
