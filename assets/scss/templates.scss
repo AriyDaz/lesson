@@ -1,0 +1,51 @@
+%bgTransparentWhite{
+   background: rgba(255, 255, 255, 0.158);
+ }
+
+
+ %borderTransparentWhite{
+   border-right: 4px solid rgba(255, 255, 255, 0.158);
+ }
+ 
+
+ %col-wht{
+   color: white;
+ }
+  
+ 
+
+
+%whiteHoverText{
+
+   color: white;
+   transition: 1s ease;
+   border-color: rgba(255, 255, 255, 0.178);
+ 
+   &:hover{
+     color: black;
+     transition: 1s ease;
+   }
+ 
+}
+ 
+
+%whiteHoverBackground{
+
+   color: white;
+   @extend %bgTransparentWhite;
+   transition: 1s ease;
+ 
+   &:hover{
+
+     color: black;
+     background: rgba(255, 255, 255, 0.068);
+     transition: 1s ease;
+   }
+ 
+}
+ 
+
+%center{
+  justify-content: center;
+  align-items: center;
+}

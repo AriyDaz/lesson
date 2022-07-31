@@ -1,0 +1,108 @@
+
+
+.PopupWrapper{
+  height: 100%;
+  width: 100%;
+}
+
+.callPopup{
+   cursor: pointer;
+   width: 100%;
+   justify-self: center;
+   align-self: center;
+   justify-content: center;
+ }
+ 
+ 
+ 
+ 
+ .closeIcon{
+   position:absolute;
+   top:5%;
+   right: 5%;
+   font-size: 25px;
+   transform: rotate(45deg);
+   cursor: pointer;
+ }
+ 
+ .submit{
+   padding: 2% 0;
+   width: 80%;
+ }
+ 
+ 
+ #PopupTrigger:checked ~ .PopupWrapper{
+   top:0;
+ }
+ 
+ #PopupTrigger{
+   display: none;
+ }
+
+
+
+.PopupWrapper{
+   position: absolute;
+   z-index: 999;
+   top: -100%;
+   transition: 0.1ms;
+ 
+ 
+ 
+   .PopupContainer{
+     background-color: rgba(0, 0, 0, 0.829);
+     justify-content: center;
+     .formWrapper{
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+     }
+ 
+ 
+     .popupFormWrapper{
+       position: relative;
+       flex-direction: column;
+       background-color: rgba(255, 255, 255, 0.616);
+       height: 50%;
+       padding: 2%  1% 2% 1%;
+      justify-content: space-evenly;
+      align-items: center;
+       min-width: 250px;
+       width: 50%;
+
+
+       .inputContainer{
+
+        justify-content: center;
+
+        .inputContainer{
+          justify-content: center;
+          align-items: center;
+        }
+
+       }
+ 
+         .inputDescription{
+           justify-self: center;
+           font-size: 10px;
+         }
+ 
+ 
+     }
+ 
+ 
+   
+     }
+ 
+ 
+     input{
+       border: 1px solid gray;
+       margin: 4% auto;
+       padding: 1%  1% 1% 1%;
+       cursor: pointer;
+       width: 80%;
+     }
+ 
+  
+     
+   }

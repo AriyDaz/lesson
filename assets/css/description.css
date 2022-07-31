@@ -1,0 +1,41 @@
+.rowSocialDescriptionWrapper {
+  height: 100vh;
+  align-self: center;
+}
+.rowSocialDescriptionWrapper .colSocialWrapper {
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+  align-self: center;
+}
+.rowSocialDescriptionWrapper .colSocialWrapper .socialImgContainer {
+  margin: 0 0 0 3%;
+}
+.rowSocialDescriptionWrapper .colSocialWrapper .socialImg {
+  width: 2vw;
+}
+.rowSocialDescriptionWrapper .colSocialWrapper .socialImgContainer {
+  justify-content: center;
+}
+.rowSocialDescriptionWrapper .leftLine {
+  border-right: 4px solid rgba(255, 255, 255, 0.466);
+  height: 50%;
+  align-self: center;
+  flex-grow: 0.01;
+}
+
+.heroDescription {
+  position: relative;
+  height: auto;
+  align-self: center;
+  color: white;
+}
+.heroDescription .exploreWrapper {
+  position: absolute;
+  bottom: 2%;
+  left: 27.6%;
+}
+.heroDescription .norwayWrapper {
+  font-weight: bold;
+  height: auto;
+}/*# sourceMappingURL=description.css.map */

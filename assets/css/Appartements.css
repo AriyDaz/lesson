@@ -1,0 +1,110 @@
+.card .cardContainer .cardStarsWrapper, .card .cardContainer .cardDescriptionWrapper, .card .cardContainer .cardLabelWrapper, .card .cardContainer .cardphotoWrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapperCardGroup {
+  justify-content: center;
+  padding-bottom: 10vh;
+}
+.wrapperCardGroup .colcardSectionContainer {
+  width: 90%;
+}
+.wrapperCardGroup .colcardSectionContainer .rowcardSectionContainer {
+  justify-content: space-between;
+}
+
+.card {
+  height: 400px;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s;
+  border-radius: 2%;
+}
+.card:hover {
+  background: linear-gradient(50deg, rgba(255, 255, 255, 0.4) 12%, rgba(255, 255, 255, 0.1) 77%);
+  box-shadow: 0px 29px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.card .transitionTextWrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: rgba(255, 255, 255, 0);
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s ease;
+}
+.card .transitionTextWrapper:hover {
+  color: rgb(255, 255, 255);
+  font-size: large;
+  background-color: rgba(0, 0, 0, 0.788);
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  cursor: pointer;
+}
+.card .transitionTextWrapper:hover:after {
+  border: 1px solid white;
+}
+.card .transitionTextWrapper .transitionTextContainer {
+  padding: 2%;
+}
+.card .cardContainer .cardphotoWrapper .cardPhotoContainer {
+  position: relative;
+  align-items: center;
+}
+.card .cardContainer .cardphotoWrapper .cardPhotoContainer .cardPhoto {
+  width: 100%;
+}
+.card .cardContainer .cardLabelWrapper {
+  height: 5vh;
+}
+.card .cardContainer .cardDescriptionWrapper {
+  height: 15vh;
+}
+.card .cardContainer .cardDescriptionWrapper .cardDescriptionContainer {
+  width: 60%;
+}
+.card .cardContainer .cardStarsWrapper {
+  width: 100%;
+}
+
+.cardInfoContainer {
+  padding: 5%;
+}
+.cardInfoContainer .rowCardInfoContainer {
+  padding: 20px 0 10px 0;
+}
+.cardInfoContainer .colCardInfoContainer .reine {
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 7vw;
+}
+
+.CardGroupWrapper {
+  justify-content: center;
+  line-height: 1.5;
+  padding: 95px 0;
+}
+.CardGroupWrapper .CardGroupTitleContiner {
+  text-align: center;
+}
+
+.Hotels {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.beauties {
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 7px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 400;
+  color: #959595;
+}/*# sourceMappingURL=Appartements.css.map */

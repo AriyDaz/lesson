@@ -1,0 +1,105 @@
+.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
+  color: white;
+  transition: 1s ease;
+  border-color: rgba(255, 255, 255, 0.178);
+}
+.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
+  color: black;
+  transition: 1s ease;
+}
+
+.containerHero {
+  height: 100%;
+}
+
+.rowHeaderWrapper {
+  background-image: url(/assets/img/mountain-theme/HERO/Rectangle\ 1.jpg);
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+.rowHeaderWrapper {
+  justify-content: center;
+  color: white;
+  height: 100%;
+}
+.rowHeaderWrapper a {
+  color: white;
+}
+.rowHeaderWrapper .heroButtonGroupContainer {
+  padding: 0;
+  align-self: flex-end;
+}
+.rowHeaderWrapper .rowNavbarWrapper {
+  justify-content: center;
+  width: 100%;
+  z-index: 10;
+}
+.rowHeaderWrapper .rowNavbarWrapper .colNavbarWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  width: 90%;
+  height: 10%;
+  background: rgba(0, 0, 0, 0.123);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.rowHeaderWrapper .colHeaderWrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2%;
+}
+.rowHeaderWrapper .colHeaderWrapper .logoContainer {
+  width: 15%;
+}
+.rowHeaderWrapper .colHeaderWrapper .logoContainer .logoItem {
+  align-items: center;
+  height: 10%;
+}
+.rowHeaderWrapper .colHeaderWrapper .logoContainer .logo {
+  width: 46px;
+}
+.rowHeaderWrapper .colHeaderWrapper .logoContainer .travelxItem {
+  align-self: center;
+}
+.rowHeaderWrapper .colHeaderWrapper .logoContainer .travelx {
+  font-size: 18px;
+  font-weight: 600;
+}
+.rowHeaderWrapper .colHeaderWrapper .logoContainer .menuContainer {
+  padding: 1rem 0;
+  justify-content: center;
+}
+.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper {
+  width: 70%;
+  justify-content: center;
+  justify-self: center;
+}
+.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper .menuContainer {
+  justify-content: space-around;
+  width: 100%;
+}
+.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem {
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
+  font-size: 18px;
+  font-weight: 400;
+}
+.rowHeaderWrapper .colBurgerWrapper {
+  width: 15%;
+  justify-content: end;
+}
+.rowHeaderWrapper .colBurgerWrapper .burger {
+  width: 35px;
+  align-self: center;
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,39 @@
+.partnersWrapper{
+   padding: 0 5%;
+ 
+   .sectionLabelWrapper{
+     justify-content: center;
+ 
+     .tritleContiner{
+       padding-bottom: 5%;
+     }
+ 
+   }
+ 
+   .rwopartnersWrapper{
+     justify-content: space-between;
+     height: 70%
+   }
+   .partnersContainer{
+     @extend %colFlexCenter;
+     width: 20%;
+ 
+     .partner{
+       width: 100%;
+     }
+   }
+ }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+@import '../../templates.scss';

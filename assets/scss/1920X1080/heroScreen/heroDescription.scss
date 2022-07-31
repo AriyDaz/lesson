@@ -1,0 +1,39 @@
+.rowSocialDescriptionWrapper{
+   justify-content: space-between;
+   align-items: center;
+   align-content: center;
+   height: 20%;
+ 
+   .colSocialWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     height: auto;
+     width: 10%;
+    
+ 
+   }
+ 
+ 
+   .heroDescription{
+     position: relative;
+     align-self: center;
+     width: 80%;
+
+     .exploreWrapper{
+       position: absolute;
+       bottom: 90%;
+       left: 37.6%;
+     }
+   }
+ }
+ 
+
+ .leftLine{
+  width: 10%;
+  border-right: 2px solid rgba(255, 255, 255, 0.205);
+ }
+
+ .socialIco{
+  line-height: 3;
+ }
