@@ -1,9 +1,9 @@
-.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
+.colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
   color: white;
   transition: 1s ease;
   border-color: rgba(255, 255, 255, 0.178);
 }
-.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
+.colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
   color: black;
   transition: 1s ease;
 }
@@ -19,19 +19,12 @@
   background-attachment: fixed;
   background-size: cover;
   background-clip: border-box;
-}
-
-.rowHeaderWrapper {
   justify-content: center;
   color: white;
   height: 100%;
 }
 .rowHeaderWrapper a {
   color: white;
-}
-.rowHeaderWrapper .heroButtonGroupContainer {
-  padding: 0;
-  align-self: flex-end;
 }
 .rowHeaderWrapper .rowNavbarWrapper {
   justify-content: center;
@@ -49,52 +42,6 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
-.rowHeaderWrapper .colHeaderWrapper {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-bottom: 2%;
-}
-.rowHeaderWrapper .colHeaderWrapper .logoContainer {
-  width: 15%;
-}
-.rowHeaderWrapper .colHeaderWrapper .logoContainer .logoItem {
-  align-items: center;
-  height: 10%;
-}
-.rowHeaderWrapper .colHeaderWrapper .logoContainer .logo {
-  width: 46px;
-}
-.rowHeaderWrapper .colHeaderWrapper .logoContainer .travelxItem {
-  align-self: center;
-}
-.rowHeaderWrapper .colHeaderWrapper .logoContainer .travelx {
-  font-size: 18px;
-  font-weight: 600;
-}
-.rowHeaderWrapper .colHeaderWrapper .logoContainer .menuContainer {
-  padding: 1rem 0;
-  justify-content: center;
-}
-.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper {
-  width: 70%;
-  justify-content: center;
-  justify-self: center;
-}
-.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper .menuContainer {
-  justify-content: space-around;
-  width: 100%;
-}
-.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem {
-  text-align: center;
-  align-self: center;
-  justify-self: center;
-}
-.rowHeaderWrapper .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
-  font-size: 18px;
-  font-weight: 400;
-}
 .rowHeaderWrapper .colBurgerWrapper {
   width: 15%;
   justify-content: end;
@@ -102,4 +49,59 @@
 .rowHeaderWrapper .colBurgerWrapper .burger {
   width: 35px;
   align-self: center;
+}
+
+.heroButtonGroupContainer {
+  padding: 0;
+  align-self: flex-end;
+}
+
+.colHeaderWrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2%;
+}
+.colHeaderWrapper .topNavlogoContainer {
+  width: 10%;
+}
+.colHeaderWrapper .topNavlogoContainer .logoItem {
+  align-items: center;
+  height: 10%;
+  width: 50%;
+  justify-content: center;
+}
+.colHeaderWrapper .topNavlogoContainer .logo {
+  position: relative;
+  width: 46px;
+}
+.colHeaderWrapper .topNavlogoContainer .travelxItem {
+  align-self: center;
+}
+.colHeaderWrapper .topNavlogoContainer .travelx {
+  font-size: 18px;
+  font-weight: 600;
+}
+.colHeaderWrapper .topNavlogoContainer .menuContainer {
+  padding: 1rem 0;
+  justify-content: center;
+}
+.colHeaderWrapper .colMenuWrapper {
+  width: 70%;
+  justify-content: center;
+  justify-self: center;
+}
+.colHeaderWrapper .colMenuWrapper .menuContainer {
+  justify-content: space-around;
+  width: 100%;
+}
+.colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem {
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+.colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
+  font-size: 18px;
+  font-weight: 400;
 }/*# sourceMappingURL=navbar.css.map */

@@ -1,39 +1,53 @@
 .rowSocialDescriptionWrapper{
-   justify-content: space-between;
-   align-items: center;
-   align-content: center;
-   height: 20%;
- 
-   .colSocialWrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-     height: auto;
-     width: 10%;
-    
- 
-   }
- 
- 
-   .heroDescription{
-     position: relative;
-     align-self: center;
-     width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 20%;
 
-     .exploreWrapper{
-       position: absolute;
-       bottom: 90%;
-       left: 37.6%;
-     }
-   }
- }
- 
+  .colSocialWrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    height: auto;
+    width: 10%;
+   
 
- .leftLine{
-  width: 10%;
-  border-right: 2px solid rgba(255, 255, 255, 0.205);
- }
+  }
 
- .socialIco{
-  line-height: 3;
- }
+
+  .heroDescription{
+    position: relative;
+    align-self: center;
+    width: 80%;
+
+    .exploreWrapper{
+      position: absolute;
+      bottom: 90%;
+      justify-content: center;
+      letter-spacing: 20px;
+      font-size: 30px;
+
+      .exploreContainer{
+        width: auto;
+      }
+    }
+  }
+}
+
+
+.leftLine{
+ width: 10%;
+ border-right: 2px solid rgba(255, 255, 255, 0.205);
+}
+
+.socialIco{
+ line-height: 3;
+}
+
+.norwayWrapper{
+  justify-content: center;
+}
+
+.Norway{
+  width: auto;
+}

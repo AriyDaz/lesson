@@ -1,3 +1,5 @@
+@import "../../templates.scss";
+
 .partnersWrapper{
    padding: 0 5%;
  
@@ -12,7 +14,8 @@
  
    .rwopartnersWrapper{
      justify-content: space-between;
-     height: 70%
+     width: 60%;
+     
    }
    .partnersContainer{
      @extend %colFlexCenter;
@@ -20,9 +23,14 @@
  
      .partner{
        width: 100%;
+
+     }
+     .midea{
+      width: 70%;
      }
    }
  }
+
  
  
 

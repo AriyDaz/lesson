@@ -1,0 +1,94 @@
+.icon-facebook {
+  font-size: 22px;
+}
+
+.icon-twitter {
+  font-size: 22px;
+}
+
+.icon-instagram {
+  font-size: 24px;
+}
+
+.travelxItem {
+  justify-content: center;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.footerLogo {
+  justify-content: center;
+  position: relative;
+  height: 67px;
+  align-items: center;
+}
+
+.logoItem .logo {
+  position: absolute;
+}
+.logoItem .logoMountains {
+  z-index: 3;
+  right: 48.178%;
+}
+
+.colfooterLogoWrapper {
+  align-self: center;
+  height: 100%;
+  width: 90%;
+}
+
+.footerCopyraightMediaWrapper {
+  justify-content: space-between;
+  height: 30%;
+  align-content: center;
+}
+.footerCopyraightMediaWrapper .copyRight {
+  font-size: 18px;
+  color: #6D6D6D;
+}
+
+.rowfooterLogoWrapper {
+  background-color: #f4f4f4;
+  justify-content: center;
+}
+
+.footerCopyraightItem {
+  width: 27%;
+  height: 20%;
+}
+
+.socialContainer {
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.copyRightContainer {
+  justify-content: end;
+}
+
+.rowfooterLogoWrapper {
+  height: 484px;
+}
+.rowfooterLogoWrapper .footerNavbarWrapper {
+  align-content: center;
+}
+.rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper {
+  justify-content: center;
+}
+.rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer {
+  width: 50%;
+  line-height: 8;
+  align-items: center;
+  justify-content: space-between;
+}
+.rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem {
+  text-align: center;
+}
+.rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink {
+  font-size: 18px;
+  color: #6D6D6D;
+}
+.rowfooterLogoWrapper .horisontalLine {
+  border-top: 2px solid #c9c9c9;
+  width: 60%;
+}/*# sourceMappingURL=footer.css.map */

@@ -5,7 +5,6 @@
 
 .wrapperCardGroup {
   justify-content: center;
-  padding-bottom: 10%;
 }
 
 .wrapperCardGroup .colcardSectionContainer {
@@ -17,7 +16,7 @@
 }
 
 .card {
-  height: 430px;
+  height: 30%;
   width: 30%;
   justify-content: center;
   align-items: center;

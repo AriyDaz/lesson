@@ -19,7 +19,12 @@
 .rowSocialDescriptionWrapper .heroDescription .exploreWrapper {
   position: absolute;
   bottom: 90%;
-  left: 37.6%;
+  justify-content: center;
+  letter-spacing: 20px;
+  font-size: 30px;
+}
+.rowSocialDescriptionWrapper .heroDescription .exploreWrapper .exploreContainer {
+  width: auto;
 }
 
 .leftLine {
@@ -29,4 +34,12 @@
 
 .socialIco {
   line-height: 3;
+}
+
+.norwayWrapper {
+  justify-content: center;
+}
+
+.Norway {
+  width: auto;
 }/*# sourceMappingURL=heroDescription.css.map */

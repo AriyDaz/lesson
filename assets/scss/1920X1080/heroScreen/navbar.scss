@@ -4,29 +4,22 @@
   height: 100%;
 }
 
-.rowHeaderWrapper{
-   background-image: url(/assets/img/mountain-theme/HERO/Rectangle\ 1.jpg);
-   background-position-x: center;
-   background-position-y: center;
-   background-attachment: fixed;
-   background-size: cover;
-   background-clip: border-box;
-   
-}
-
 
 .rowHeaderWrapper{
+
+  background-image: url(/assets/img/mountain-theme/HERO/Rectangle\ 1.jpg);
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: border-box;
   justify-content: center;
   color: white;
   height: 100%;
   a{
     color: white;
   }
-  .heroButtonGroupContainer{
-    padding: 0;
-    align-self: flex-end;
 
-  }
 
   .rowNavbarWrapper{
     justify-content: center;
@@ -47,72 +40,7 @@
     }
   }
 
-  .colHeaderWrapper{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom:2%;
-    .logoContainer{
-      width: 15%;
 
-      .logoItem{
-        align-items: center;
-        height: 10%;
-      }
-      
-      .logo{
-        width: 46px;
-      }
-
-      .travelxItem{
-        align-self: center;
-      }
-
-      .travelx{
-
-        font-size: 18px;
-        font-weight: 600;
-      }
-
-
-      .menuContainer{
-        padding: 1rem 0;
-        justify-content: center;
-      }
-
-    }
-
-
-    .colMenuWrapper{
-        width: 70%;
-        justify-content: center;
-        justify-self: center;
-      
-      .menuContainer{
-        justify-content: space-around;
-        width: 100%;
-        
-          .navLinkItem{
-            text-align: center;
-            align-self: center;
-            justify-self: center;
-
-
-            .navLink{
-              font-size: 18px;
-              font-weight: 400;
-              @extend %whiteHoverText;
-            }
-          }
-      }
-    
-
-    }
-
-
-  
-  }
 
 
   .colBurgerWrapper{
@@ -126,3 +54,81 @@
   }
   
 }
+
+
+.heroButtonGroupContainer{
+  padding: 0;
+  align-self: flex-end;
+
+}
+
+.colHeaderWrapper{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom:2%;
+
+  .topNavlogoContainer{
+    width: 10%;
+
+    .logoItem{
+      align-items: center;
+      height: 10%;
+      width: 50%;
+      justify-content: center;
+    }
+    
+    .logo{
+      position: relative;
+      width: 46px;
+    }
+
+    .travelxItem{
+      align-self: center;
+    }
+
+    .travelx{
+
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+
+    .menuContainer{
+      padding: 1rem 0;
+      justify-content: center;
+    }
+
+  }
+
+.colMenuWrapper{
+      width: 70%;
+      justify-content: center;
+      justify-self: center;
+    
+    .menuContainer{
+      justify-content: space-around;
+      width: 100%;
+      
+        .navLinkItem{
+          text-align: center;
+          align-self: center;
+          justify-self: center;
+
+
+          .navLink{
+            font-size: 18px;
+            font-weight: 400;
+            @extend %whiteHoverText;
+          }
+        }
+    }
+  
+
+  }
+
+
+
+}
+
