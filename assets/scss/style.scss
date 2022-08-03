@@ -6,8 +6,6 @@
 
 
 
-
-
 /*------------------------<general styles>----------------------------*/
 
 
@@ -40,13 +38,17 @@ header{
 }
 
 
+
+
+
+
 h1{
-  font-size: 250px;
+  font-size: calc(35px + (250 - 35) * ((100vw - 320px) / (1920 - 320)));
   @extend %FW-bold
 }
 
 h3{
-  font-size: 46px;
+  font-size: calc(14px + (46 - 14) * ((100vw - 320px) / (1920 - 320)));
   @extend %FW-bold;
 }
 
@@ -97,6 +99,17 @@ h4{
 /*------------------------<width>----------------------------*/
 
 
+@mixin minFontSize( $minfz, $maxfz){
+  font-size: calc($minfz + ($maxfz - $minfz) * ((100vw - 320px) / (1920 - 320)));
+
+}
+
+
+
+
+
+
+
 
 .tritleContiner{
   padding: 15% 0;
@@ -104,23 +117,13 @@ h4{
   .regularText{
     line-height: 3;
     letter-spacing: 10px;
+    @include minFontSize(5px, 16px);
   }
 }
 
 
 
 /*------------------------<>----------------------------*/
-
-
-.sliderWrapper{
-
-}
-
-
-
-
-
-
 
 
 
@@ -150,7 +153,8 @@ h4{
 '../scss/1920X1080/Partners/Partners.scss',
 "../scss/1920X1080/footer/footer.scss",
 '../scss/1920X1080/heroScreen/burgerMenu.scss',
-'../css/lightslider.css';
+'../css/lightslider.css',
+'../scss/1920X1080/slickSlider/slickSlider.scss';
 
 
 
