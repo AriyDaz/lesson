@@ -1,9 +1,6 @@
 .philosofyWrapper {
   justify-content: center;
 }
-.philosofyWrapper .tritleContiner {
-  padding-top: 10%;
-}
 .philosofyWrapper .philosofyContainer {
   width: 90%;
 }
@@ -42,7 +39,6 @@
 }
 .philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .philosofyTitleContainer .philosofyTitle {
   font-weight: bold;
-  font-size: 32px;
 }
 .philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .philosofyTitleContainer .philosofyDescription {
   width: 100%;

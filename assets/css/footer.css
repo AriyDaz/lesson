@@ -28,7 +28,6 @@
 }
 .logoItem .logoMountains {
   z-index: 3;
-  right: 48.178%;
 }
 
 .colfooterLogoWrapper {
@@ -87,6 +86,12 @@
 .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink {
   font-size: 18px;
   color: #6D6D6D;
+  transition: 1s ease;
+  border-color: rgba(255, 255, 255, 0.178);
+}
+.rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink:hover {
+  color: black;
+  transition: 1s ease;
 }
 .rowfooterLogoWrapper .horisontalLine {
   border-top: 2px solid #c9c9c9;

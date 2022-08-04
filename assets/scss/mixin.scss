@@ -1,0 +1,11 @@
+@mixin minFontSize( $minfz, $maxfz){
+   font-size: calc($minfz + ($maxfz - $minfz) * ((100vw - 320px) / (1920 - 320)));
+ 
+ }
+ 
+
+ @mixin flexLetterSpace( $minls, $maxls){
+   letter-spacing: calc($minls + ($maxls - $minls) * ((100vw - 320px) / (1920 - 320)));
+ 
+ }
+ 

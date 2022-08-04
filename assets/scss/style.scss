@@ -6,6 +6,7 @@
 
 
 
+
 /*------------------------<general styles>----------------------------*/
 
 
@@ -42,20 +43,6 @@ header{
 
 
 
-h1{
-  font-size: calc(35px + (250 - 35) * ((100vw - 320px) / (1920 - 320)));
-  @extend %FW-bold
-}
-
-h3{
-  font-size: calc(14px + (46 - 14) * ((100vw - 320px) / (1920 - 320)));
-  @extend %FW-bold;
-}
-
-h4{
-  font-size: 32px;
-  @extend %FW-bold
-}
 
 
 .w-100{
@@ -96,45 +83,18 @@ h4{
   flex-direction: row;
 }
 
-/*------------------------<width>----------------------------*/
-
-
-@mixin minFontSize( $minfz, $maxfz){
-  font-size: calc($minfz + ($maxfz - $minfz) * ((100vw - 320px) / (1920 - 320)));
-
-}
-
-
-
-
-
-
 
 
 .tritleContiner{
-  padding: 15% 0;
-
+  padding: 10% 0;
   .regularText{
     line-height: 3;
-    letter-spacing: 10px;
-    @include minFontSize(5px, 16px);
+    font-size: 16px;
   }
+  
 }
 
-
-
-/*------------------------<>----------------------------*/
-
-
-
-
-
-
-
-
-
-
-
+/*------------------------<width>----------------------------*/
 
 
 
@@ -158,4 +118,101 @@ h4{
 
 
 
+h4{
+  font-size: calc(11px + (32 - 11) * ((100vw - 320px) / (1920 - 320)));
+  @extend %FW-bold
+}
 
+
+
+h1{
+  font-size: calc(35px + (250 - 35) * ((100vw - 320px) / (1920 - 320)));
+  @extend %FW-bold
+}
+
+
+
+h3{
+  font-size: calc(14px + (46 - 14) * ((100vw - 320px) / (1920 - 320)));
+  @extend %FW-bold;
+}
+
+
+
+
+.colHeaderWrapper .topNavlogoContainer .travelx{
+  font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink{
+  font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
+}
+
+
+.philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .numberItem{
+  
+  
+}
+
+@media only screen and (max-width:1366px) {
+
+
+
+  .colBurgerWrapper{
+    width: 10%;
+  }
+
+  .rowNavbarContainer{
+    justify-content: space-between;
+
+  }
+
+  .rowHeaderWrapper .colBurgerWrapper{
+    padding-right: 5%;
+  }
+
+  .rowHeaderWrapper .colBurgerWrapper{
+   
+  }
+
+  .philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .philosofyTitleContainer .philosofyTitle{
+
+  }
+
+  .philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .philosofyTitleContainer .philosofyDescription{
+    font-size: 0.9rem;
+  }
+
+  .starContainer{
+    width: 30px;
+    padding: 5% 0 3% 0;
+  }
+
+  .price{
+    font-size:1.3rem;
+  }
+
+
+}
+
+
+
+@media screen and (max-width:1280px) {
+
+}
+
+
+@media only screen and (max-width:1000px) {
+  .explore{
+    font-size: 1.2rem;
+  }
+}
+
+
+@media screen and (max-width:640px) {
+  .explore{
+    font-size: 0.8rem;
+    letter-spacing: 10px;
+    line-height: 3;
+  }
+}

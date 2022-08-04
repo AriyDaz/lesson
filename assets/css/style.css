@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-h4, h3, h1 {
+h3, h1, h4 {
   font-weight: bold;
 }
 
@@ -21,18 +21,6 @@ body {
 header {
   height: 100%;
   position: relative;
-}
-
-h1 {
-  font-size: calc(35px + 215 * (100vw - 320px) / 1600);
-}
-
-h3 {
-  font-size: calc(14px + 32 * (100vw - 320px) / 1600);
-}
-
-h4 {
-  font-size: 32px;
 }
 
 .w-100 {
@@ -69,27 +57,25 @@ h4 {
   flex-direction: row;
 }
 
-/*------------------------<width>----------------------------*/
 .tritleContiner {
-  padding: 15% 0;
+  padding: 10% 0;
 }
 .tritleContiner .regularText {
   line-height: 3;
-  letter-spacing: 10px;
-  font-size: calc(5px + 11px * (100vw - 320px) / 1600);
+  font-size: 16px;
 }
 
-/*------------------------<>----------------------------*/
+/*------------------------<width>----------------------------*/
 .heroButtonGroupContainer .locationButtonWrapper {
   background: rgba(255, 255, 255, 0.158);
 }
 
-.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
+.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
   color: white;
   transition: 1s ease;
   border-color: rgba(255, 255, 255, 0.178);
 }
-.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink:hover, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
+.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
   color: black;
   transition: 1s ease;
 }
@@ -196,12 +182,12 @@ h4 {
   background: rgba(255, 255, 255, 0.158);
 }
 
-.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
+.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
   color: white;
   transition: 1s ease;
   border-color: rgba(255, 255, 255, 0.178);
 }
-.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink:hover, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
+.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
   color: black;
   transition: 1s ease;
 }
@@ -274,12 +260,12 @@ h4 {
   background: rgba(255, 255, 255, 0.158);
 }
 
-.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
+.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
   color: white;
   transition: 1s ease;
   border-color: rgba(255, 255, 255, 0.178);
 }
-.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink:hover, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
+.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
   color: black;
   transition: 1s ease;
 }
@@ -538,9 +524,6 @@ h4 {
 .philosofyWrapper {
   justify-content: center;
 }
-.philosofyWrapper .tritleContiner {
-  padding-top: 10%;
-}
 .philosofyWrapper .philosofyContainer {
   width: 90%;
 }
@@ -579,7 +562,6 @@ h4 {
 }
 .philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .philosofyTitleContainer .philosofyTitle {
   font-weight: bold;
-  font-size: 32px;
 }
 .philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .philosofyTitleContainer .philosofyDescription {
   width: 100%;
@@ -610,12 +592,12 @@ h4 {
   background: rgba(255, 255, 255, 0.158);
 }
 
-.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
+.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
   color: white;
   transition: 1s ease;
   border-color: rgba(255, 255, 255, 0.178);
 }
-.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink:hover, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
+.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
   color: black;
   transition: 1s ease;
 }
@@ -647,12 +629,12 @@ h4 {
   background: rgba(255, 255, 255, 0.158);
 }
 
-.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
+.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
   color: white;
   transition: 1s ease;
   border-color: rgba(255, 255, 255, 0.178);
 }
-.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink:hover, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
+.burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover, .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover {
   color: black;
   transition: 1s ease;
 }
@@ -745,6 +727,12 @@ h4 {
 .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink {
   font-size: 18px;
   color: #6D6D6D;
+  transition: 1s ease;
+  border-color: rgba(255, 255, 255, 0.178);
+}
+.rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink:hover {
+  color: black;
+  transition: 1s ease;
 }
 .rowfooterLogoWrapper .horisontalLine {
   border-top: 2px solid #c9c9c9;
@@ -846,12 +834,12 @@ h4 {
   background: rgba(255, 255, 255, 0.158);
 }
 
-.colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink, .burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink {
+.colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink, .burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink {
   color: white;
   transition: 1s ease;
   border-color: rgba(255, 255, 255, 0.178);
 }
-.colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover, .rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink:hover, .burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover {
+.colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink:hover, .burgerPopupWrapper .burgerNavbarWrapper .colBurgerMenuWrapper .burgerMenuContainer .burgerNavLinkItem .burgerNavLink:hover {
   color: black;
   transition: 1s ease;
 }
@@ -972,4 +960,58 @@ h4 {
   font-size: 17px;
   font-weight: bold;
   opacity: 70%;
+}
+
+h4 {
+  font-size: calc(11px + 21 * (100vw - 320px) / 1600);
+}
+
+h1 {
+  font-size: calc(35px + 215 * (100vw - 320px) / 1600);
+}
+
+h3 {
+  font-size: calc(14px + 32 * (100vw - 320px) / 1600);
+}
+
+.colHeaderWrapper .topNavlogoContainer .travelx {
+  font-size: calc(15px + 3 * (100vw - 320px) / 1600);
+}
+
+.colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink {
+  font-size: calc(15px + 3 * (100vw - 320px) / 1600);
+}
+
+@media only screen and (max-width: 1366px) {
+  .colBurgerWrapper {
+    width: 10%;
+  }
+  .rowNavbarContainer {
+    justify-content: space-between;
+  }
+  .rowHeaderWrapper .colBurgerWrapper {
+    padding-right: 5%;
+  }
+  .philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .philosofyTitleContainer .philosofyDescription {
+    font-size: 0.9rem;
+  }
+  .starContainer {
+    width: 30px;
+    padding: 5% 0 3% 0;
+  }
+  .price {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .explore {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .explore {
+    font-size: 0.8rem;
+    letter-spacing: 10px;
+    line-height: 3;
+  }
 }/*# sourceMappingURL=style.css.map */
