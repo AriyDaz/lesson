@@ -14,7 +14,19 @@ $(document).ready(function(){
       touchTreshold:5,
       touchMove:true,
       waitForAnimate:true,
-      centerMode:true
+      centerMode:true,
+      variableWidth: true,
+      adaptiveHeight: true,
+
+      responsive:[{
+
+         
+         braeakpoint: 640,
+         settings :{
+            slidesToShow:1,
+         }
+      
+      }]
    });
 
 });

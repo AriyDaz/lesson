@@ -53,10 +53,11 @@
 }
 .heroButtonGroupContainer .locationButtonWrapper .locationDescription .trondheim {
   font-weight: bold;
-  font-size: 1.1vw;
+  font-size: 20px;
 }
 .heroButtonGroupContainer .locationButtonWrapper .locationDescription .planTrip {
-  font-size: 0.9vw;
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .heroButtonGroupContainer {

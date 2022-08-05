@@ -48,11 +48,11 @@
   top: 50%;
   z-index: 4;
   font-size: 0;
-  height: 100px;
-  width: 60px;
+  height: calc(40px + 60 * (100vw - 320px) / 1600);
+  width: calc(20px + 40 * (100vw - 320px) / 1600);
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-size: 100%;
+  background-size: calc(40% + 60 * (100vw - 320px) / 1600);
   background-color: transparent;
 }
 .sliderWrapper .slider .slick-arrow.slick-prev {
@@ -83,8 +83,8 @@
 }
 .sliderWrapper .slider .slick-dots li button {
   font-size: 0;
-  height: 10px;
-  width: 10px;
+  height: calc(5px + 5 * (100vw - 320px) / 1600);
+  width: calc(5px + 5 * (100vw - 320px) / 1600);
   background-color: black;
   border-radius: 50%;
   transition: 0.5s ease;
@@ -92,8 +92,8 @@
 .sliderWrapper .slider .slick-dots .slick-active button {
   background-color: transparent;
   border: 1px solid black;
-  height: 16px;
-  width: 16px;
+  height: calc(8px + 8 * (100vw - 320px) / 1600);
+  width: calc(8px + 8 * (100vw - 320px) / 1600);
 }
 
 /*---------------------slide text--------------------------*/
@@ -102,17 +102,17 @@
 }
 .slider__item span {
   position: absolute;
-  left: 28%;
+  left: calc(10% + 18 * (100vw - 320px) / 1600);
   color: white;
 }
 .slider__item .slideTitle {
-  top: 83%;
-  font-size: 32px;
+  top: 82%;
+  font-size: calc(10.6px + 21.4 * (100vw - 320px) / 1600);
   font-weight: bold;
 }
 .slider__item .activites {
-  top: 90%;
-  font-size: 17px;
+  top: 89%;
+  font-size: calc(5.66px + 11.34 * (100vw - 320px) / 1600);
   font-weight: bold;
   opacity: 70%;
 }/*# sourceMappingURL=slickSlider.css.map */

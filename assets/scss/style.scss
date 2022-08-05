@@ -117,10 +117,18 @@ header{
 '../scss/1920X1080/slickSlider/slickSlider.scss';
 
 
+/*--------------------коєффициент 3.3------------------------------------*/
+
+
+.slideImage{
+  height: calc(206.66px + (620 - 206.66) * ((100vw - 320px) / (1920 - 320)));
+}
+
+
 
 h4{
-  font-size: calc(11px + (32 - 11) * ((100vw - 320px) / (1920 - 320)));
-  @extend %FW-bold
+  font-size: calc(9.6px + (32 - 9.6) * ((100vw - 320px) / (1920 - 320)));
+  @extend %FW-bold;
 }
 
 
@@ -141,17 +149,62 @@ h3{
 
 
 .colHeaderWrapper .topNavlogoContainer .travelx{
-  font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
+  font-size: calc(5.45px + (18 - 5.45) * ((100vw - 320px) / (1920 - 320)));
 }
 
 .colHeaderWrapper .colMenuWrapper .menuContainer .navLinkItem .navLink{
   font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
 }
 
+.explore{
+  font-size: calc(9px + (30 - 9) * ((100vw - 320px) / (1920 - 320)));
+  letter-spacing: calc(3px + (10 - 3) * ((100vw - 320px) / (1920 - 320)));;
+}
+
 
 .philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .numberItem{
+  font-size: calc(7.8px + (26 - 7.8) * ((100vw - 320px) / (1920 - 320)));
   
-  
+}
+
+
+
+
+.philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .philosofyTitleContainer .philosofyDescription{
+  font-size: calc(4.8px + (16 - 4.8) * ((100vw - 320px) / (1920 - 320)));
+}
+
+
+.tritleContiner .regularText {
+  font-size: calc(4.8px + (16 - 4.8) * ((100vw - 320px) / (1920 - 320)));
+  letter-spacing: calc(3px + (10 - 3) * ((100vw - 320px) / (1920 - 320)));;
+}
+
+
+.cardInfoContainer .colCardInfoContainer .reine{
+  font-size: calc(10px + (30 - 10) * ((100vw - 320px) / (1920 - 320)));
+}
+
+
+.price{
+  font-size: calc(6.66px + (20 - 6.66) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.rowfooterLogoWrapper .footerNavbarWrapper .colFooterMenuWrapper .footerMenuContainer .footerNavLinkItem .footerNavLink{
+  font-size: calc(5.33px + (16 - 5.33) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.footerCopyraightMediaWrapper .copyRight{
+  font-size: calc(6px + (18 - 6) * ((100vw - 320px) / (1920 - 320)));
+}
+
+
+.heroButtonGroupContainer .locationButtonWrapper .locationDescription .trondheim{
+  font-size:calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.heroButtonGroupContainer .locationButtonWrapper .locationDescription .planTrip{
+  font-size:calc(8px + (16 - 8) * ((100vw - 320px) / (1920 - 320)));
 }
 
 @media only screen and (max-width:1366px) {
@@ -171,26 +224,6 @@ h3{
     padding-right: 5%;
   }
 
-  .rowHeaderWrapper .colBurgerWrapper{
-   
-  }
-
-  .philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .philosofyTitleContainer .philosofyTitle{
-
-  }
-
-  .philosofyWrapper .philosofyContainer .philosofyDescriptionContainer .philosofyTitleContainer .philosofyDescription{
-    font-size: 0.9rem;
-  }
-
-  .starContainer{
-    width: 30px;
-    padding: 5% 0 3% 0;
-  }
-
-  .price{
-    font-size:1.3rem;
-  }
 
 
 }
@@ -203,16 +236,34 @@ h3{
 
 
 @media only screen and (max-width:1000px) {
-  .explore{
-    font-size: 1.2rem;
-  }
+
 }
 
 
 @media screen and (max-width:640px) {
-  .explore{
-    font-size: 0.8rem;
-    letter-spacing: 10px;
-    line-height: 3;
+  .burgerPopupWrapper{
+    width: 90%;
+  }
+  .colMenuWrapper{
+    display: none;
+  }
+  
+.colHeaderWrapper .topNavlogoContainer{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+  }
+
+  .colHeaderWrapper .topNavlogoContainer .logoItem{
+    height: 100%;
+  }
+
+  .travelxItem{
+    display: none;
+  }
+
+  .rowHeaderWrapper .colBurgerWrapper{
+    width: 40%;
   }
 }
